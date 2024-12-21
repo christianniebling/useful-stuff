@@ -26,4 +26,7 @@ sudo ln -s /run/systemd/resolve/resolv.conf /etc/resolv.conf
 Notes:
 the systemd stub listener should not be enabled. Its ok if systemd-resolved is enabled, but not the stub resolver part (I think it uses the port it needs?)
 
+Links:
+https://askubuntu.com/questions/1394034/port-conflict-in-pi-hole-docker-installation-with-systemd-resolve-process
+http://web.archive.org/web/20220612212822/https://www.bklynit.net/ubuntu-20-04-lts-docker-pihole/
 
